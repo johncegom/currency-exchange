@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 8rem;
+}
+
+header {
+  margin-top: 4rem;
+}
+
+#title {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+#describe {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.currency {
+  display: flex;
+  padding: 1.5rem;
+}
+
+.select {
+  padding: 0.3rem 0.4rem;
+  font-size: 1.2rem;
+}
+
+.input {
+  font-size: 1.9rem;
+  border: 0;
+  background: transparent;
+  text-align: end;
+}
+
+.currency-rate {
+  margin: 1rem 0;
+  width: 25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+#rate {
+  font-size: 1.1rem;
+  color: red;
+}
+
+.btn {
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.8rem;
+  background: greenyellow;
+}
+
+.btn:hover {
+  cursor: pointer;
+}

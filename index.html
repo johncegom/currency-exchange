@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Exchange</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <img class="logo" src="./logo.png" alt="" />
+      <p id="title">Currency Exchange</p>
+      <p id="describe">Choose the currency and the amounts to get the exchange rate</p>
+      <div class="currency">
+        <select class="select" id="base-select"></select>
+        <input class="input" id="base-input" type="text" placeholder="0" value="1">
+      </div>
+
+      <div class="currency-rate">
+        <button class="btn">swap</button>
+        <div id="rate">asc</div>
+      </div>
+
+      <div class="currency">
+        <select class="select" id="target-select"></select>
+        <input readonly class="input" id="target-input" type="text">
+      </div>
+
+    </div>
+
+    <script src="./main.js" type="module"></script>
+  </body>
+</html>
