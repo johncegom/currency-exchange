@@ -1,2 +1,2 @@
 # currency-exchange
-Using API to exchange currency.
+Using javascript + API to exchange currency.
