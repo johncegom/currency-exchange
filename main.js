@@ -58,5 +58,8 @@ function baseCurrencyOnChange() {
     rates = res.data.rates;
     renderRate();
   })
+  .catch(err => {
+    console.log(err);
+  });
 }
 
